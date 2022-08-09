@@ -1,4 +1,5 @@
 import * as React from "react";
+import { AppThemeProvider } from "components/AppThemeProvider/AppThemeProvider";
 export function App() {
-  return <div>Pixema</div>;
+  return <AppThemeProvider>Pixema</AppThemeProvider>;
 }
